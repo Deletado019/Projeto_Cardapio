@@ -7,27 +7,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <p>Cardapio Digital </p>
-        <nav>
-            <ul>
-                <a href="index.html">
-                    <li>Cardapio</li>
-                </a>
-                <a href="cadastrar.html">
-                    <li>Cadastrar</li>
-                </a>
-                <a href="relatorio.php">
-                    <li>
-                        Relatorio
-                    </li>
-                </a>
-                <a href="sair.php"><li>
-                    sair
-                </li></a>
-            </ul>
-        </nav>
-    </header>
+    <?php
+        require_once'includes/header.php';
+    ?>
     <main>
         <h1>Cadastro - Cardapio</h1>
         <form action="backend/cadastrar-produto.php" method="post" enctype="multipart/form-data">
@@ -42,7 +24,7 @@
                 </div>
                 <div>
                     <label for="valor">Valor</label>
-                    <input type="number" step="0.00" name="valor" id="valor" required>
+                    <input type="number" step="0.01" name="valor" id="valor" required>
                 </div>
                 <div>
                     <label for="categoria">Categoria</label>

@@ -36,7 +36,9 @@ try{
 
     $comando->execute();
 
-    echo "Cadastrado com sucesso";
+    // echo "Cadastrado com sucesso";
+
+    header('location: ../produto-lista.php');
 
 
 
