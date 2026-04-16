@@ -47,7 +47,7 @@ try{
                     <div class="titulo"><?php echo $produto['produto'] ?></div>
                     <div class="categoria"><?php echo $produto['categoria'] ?></div>
                     <div class="valor"><?php echo $produto['valor'] ?></div>
-                    <a href="">
+                    <a href="cardapio-info.php?id=<?php echo $produto['id'];?>">
                         <button type="button">Vizualizar</button>
                     </a>
                 </div>

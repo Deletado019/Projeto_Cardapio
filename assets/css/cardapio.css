@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A0A;
+    
+}
+main{
+    width: 80%;
+    display: grid;
+    margin: 20px auto;
+
+}
+
+#cardapio{
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    background: #fff;
+}
+main a{
+    text-decoration: none;
+    color: #80DD0E;
+}
+
+#cardapio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#produto{
+    font-size: 4vh;
+}
+
+#categoria{
+    background: #353535;
+   width: fit-content;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+}
+#valor{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+#btn-pedido{
+    background-color: #80DD0E;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+     box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all o.3s ease;
+}
+#btn-pedido:hover
+{
+    cursor: pointer;
+background-color: #AFE6C3;
+            transform: scale(1.05);
+          
+
+}
+#descricao , #ingredientes {
+    line-height: 1.5;
+}
+#descricao h3, #ingredientes h3{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
