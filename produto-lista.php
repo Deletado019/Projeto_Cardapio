@@ -1,4 +1,15 @@
 <?php
+
+// iniciar a sessão
+
+session_start();
+
+if($_SESSION['logado']!='sim'){
+
+header("location: login.php");
+
+}
+
 require_once 'backend/conexao.php';
 
 try{

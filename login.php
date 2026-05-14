@@ -17,15 +17,15 @@
                     </div>
                     
                     <div class="card-body p-4">
-                        <form>
+                        <form action="backend/verificar-login.php" method="post">
                             <div class="mb-3">
                                 <label for="email" class="form-label">E-mail</label>
-                                <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="nome@exemplo.com" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="senha" class="form-label">Senha</label>
-                                <input type="password" class="form-control" id="senha" placeholder="Sua senha" required>
+                                <input type="password" class="form-control" name="senha" id="senha" placeholder="Sua senha" required>
                             </div>
 
                     
