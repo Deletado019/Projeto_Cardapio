@@ -1,4 +1,5 @@
 <?php
+require_once 'backend/sessao.php';
 require_once 'backend/conexao.php';
 
 try{

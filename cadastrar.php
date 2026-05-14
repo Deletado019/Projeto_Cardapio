@@ -1,3 +1,8 @@
+<?php
+
+require_once 'backend/sessao.php';
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
