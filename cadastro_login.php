@@ -30,6 +30,12 @@
                                 <input type="password" class="form-control" id="senha" name="senha" required>
                             </div>
 
+                            <div class="mb-3">
+                                <label for="confirmar_senha" class="form-label">Confirmar Senha</label>
+                                <input type="password" class="form-control" id="confirmar_senha" name="confirmar_senha" required>
+                            </div>
+
+
                             <div class="d-grid mt-4">
                                 <button type="submit" class="btn btn-primary btn-lg">Finalizar Cadastro</button>
                             </div>

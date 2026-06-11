@@ -40,6 +40,14 @@
                                     <a href="cadastro_login.php" class="text-decoration-none fw-bold">Cadastre-se</a>
                                 </p>
                             </div>
+                            
+                            <div class="mt-3 text-center">
+                                <p class="small text-muted mb-0">
+                                    Esqueci minha senha! 
+                                    <a href="recuperar-senha.php" class="text-decoration-none fw-bold">Recuperar senha</a 
+                                    
+                                </p>
+                            </div>
                         </form>
                     </div>
                 </div>
